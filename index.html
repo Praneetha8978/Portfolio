@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smart Internz Project</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class = "container">
+        <div class="sidebar">
+            <nav>
+                <ul>
+                    <li><a href="/Home.html">Home</a></li>
+                    <li><a href="/AboutUs.html">About Us</a></li>
+                    <li><a href="/Skills.html">Skills</a></li>
+                    <li><a href="/Contact.html">Contact Us</a></li>
+                    <li><a href="/Resume.pdf">Resume</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class = "main">
+            <div class="infoContainer">
+                <div class="devInfo">
+                    <div class="hello">Hi I am</div>
+                    <div class="name">Praneetha Devi Mudunuri</div>
+                    <span id="element"></span>
+                    <div class="moreabout">I'm Currently pursuing IV year of BTech</div>
+                    <!-- <div class="buttons">
+                        <button><a href="Resume.pdf">Resume</a></button>
+                        <button><a href="/Contact.html">Contact Us</a></button>
+                    </div> -->
+                </div>
+                <div class="ig">
+                    <img src="dev.png" alt="developer" style="width: 400px;height: 400px;margin-right: 150px;margin-left: 50px;">
+                </div>
+                <!-- <div class="devPic"><img src="" alt="Team Project"></div> -->
+            </div>
+        </div>
+    </div>
+    <script src="index.js"></script>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+          strings: ['Programmer', 'Web Developer','ML Enthusiast'],
+          typeSpeed: 30,
+        });
+      </script>
+</body>
+</html>
